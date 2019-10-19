@@ -27,7 +27,7 @@ hi Boolean      term=underline  cterm=bold ctermfg=darkgreen
 hi Float        term=underline  cterm=bold ctermfg=darkgreen 
 hi Title        guifg=#09f909  gui=none
 hi Underlined   guifg=#49f95f gui=none
-hi Statement    guifg=#efef70  "gui=none
+hi Statement    guifg=#efef70  gui=none
 hi Type         guifg=#60e5bf  gui=none
 hi PreProc      guifg=#f085b4
 hi Identifier   guifg=#50f0b4 gui=bold
@@ -75,7 +75,7 @@ hi MatchParen   guibg=#200080 guifg=#f0f080
 hi Normal           ctermbg=16 ctermfg=194
 hi SpecialKey       term=bold ctermfg=115 
 hi NonText          term=bold cterm=bold ctermfg=52 ctermbg=16 
-hi Directory        term=bold ctermfg=152 
+hi Directory        term=bold ctermfg=6
 hi ErrorMsg         term=standout ctermfg=231 ctermbg=203 
 hi IncSearch        term=reverse cterm=reverse ctermfg=58 ctermbg=187 
 hi Search           term=reverse ctermfg=58 ctermbg=108 
@@ -83,7 +83,7 @@ hi MoreMsg          term=bold cterm=bold ctermfg=29
 hi ModeMsg          term=bold cterm=bold ctermfg=38 
 hi LineNr           term=underline cterm=bold ctermfg=30 ctermbg=16 
 hi CursorLineNr     term=bold cterm=bold ctermfg=226 
-hi CursorLine       term=underline  guibg=#555555
+hi CursorLine       term=bold,reverse cterm=bold ctermfg=256 ctermbg=38
 hi Question         term=standout cterm=bold ctermfg=146 
 hi StatusLine       term=bold,reverse cterm=bold ctermfg=17 ctermbg=38 
 hi StatusLineNC     term=reverse cterm=bold ctermfg=23 ctermbg=31 
@@ -94,7 +94,7 @@ hi VisualNOS        term=bold,underline cterm=bold,underline
 hi WarningMsg       term=standout ctermfg=209 
 hi WildMenu         term=standout ctermfg=16 ctermbg=226 
 hi Folded           term=standout ctermfg=2 ctermbg=0 
-hi Statement        term=bold cterm=bold
+hi Statement        term=bold cterm=bold ctermfg=6
 hi Constant         ctermfg=45
 hi Function         term=bold cterm=bold ctermfg=173
 hi Special          term=bold cterm=bold ctermfg=12

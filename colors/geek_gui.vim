@@ -12,7 +12,7 @@ let colors_name = "geek_gui"
 
 " Vim >= 7.0 specific colors
 if version >= 700
-    hi CursorLine   guibg=#004663
+    hi CursorLine   guifg=#ffffff guibg=#004663 gui=bold
     hi CursorColumn guibg=#004663
     hi Pmenu        guifg=#f6f3e8 guibg=#444444
     hi PmenuSel     guifg=#000000 guibg=#cae682
@@ -20,6 +20,7 @@ if version >= 700
     " Subtly highlight parnіe brackets.
     hi MatchParen ctermfg=180 ctermbg=NONE cterm=underline guifg=#dda790 guibg=NONE gui=underline
 endif
+
 
 """ BACKGROUDNG:    090a17
 """ COLOR COLUMN:   113a44
